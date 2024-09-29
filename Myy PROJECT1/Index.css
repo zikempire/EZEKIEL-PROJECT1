@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Reddit+Sans:ital,wght@0,200..900;1,200..900&family=Righteous&display=swap");
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+   font-family: "Reddit Sans", sans-serif;
+}
+
+body {
+  font-family: "Reddit Sans", sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Righteous", sans-serif;
+}
+.bg-light {
+  background: #08748c !important;
+}
+#btn-11 {
+  color: white;
+  background-color: #f97f0f;
+}
+#btn-111{
+    color: #f97f0f;
+    border-color: #f97f0f;
+}
+#first-image{
+    background-image: url(./Images/Group\ 1.png);
+     background-position: left;
+  background-repeat: no-repeat;
+}
+#btn
+
+.hero-section {
+  min-height: 70vh;
+}
+
+.card-section .bg-light-subtle {
+  background: #f6fdff !important;
+}
+
+.bg-overlay .top-50 {
+  top: 35% !important;
+}
+
+.stats-wrapper {
+  position: relative;
+}
+
+.stats-container {
+  top: -44px !important;
+  margin: 0 auto;
+  display: flex;
+}
+
+.stats-card {
+  background-color: #fcbb80;
+  margin: 0 auto;
+  width: 75%;
+  border-radius: 10px 10px 4px 4px;
+  min-height: 150px;
+}
+
+.offer-li li::marker {
+  color: #f97f0f;
+  font-weight: bolder;
+  content: "•";
+}
+
+.bg-primary {
+  background-color: #b5d5dd !important;
+}
+
+.top-0 {
+  top: 27px !important;
+}
+
+.hero-section .top-50 {
+  top: 77% !important;
+}
+
+.rounded-5 {
+  border: 2px solid black !important;
+  background: #a6d5e0;
+  padding: 10px 15px !important;
+  line-height: 1 !important;
+}
+
+.rounded-5 p {
+  margin: 0px !important;
+}
+
+.tag_over_lay img {
+  height: 18px;
+}
+
+.hero-section .mx-lg {
+  margin-left: 9.3rem !important;
+}
+
+.hero-section .py-lg-5 {
+  padding-top: 3rem !important;
+}
+
+.bg-overlay {
+  background-image: url(/Images/bg_overlay.png);
+  height: 53vh;
+  background-position: center;
+  background-repeat: no-repeat;
+}
